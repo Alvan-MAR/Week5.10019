@@ -5,16 +5,16 @@ public class PreTask1 {
         double alas, tinggi, sisi2, sisi3, keliling, luas;
         Scanner input = new Scanner(System.in);
         
-        System.out.println("Tolong masukkan nilai alas segitiga: ");
+        System.out.print("Tolong masukkan nilai alas segitiga: ");
         alas = input.nextDouble();
 
-        System.out.println("Tolong masukkan nilai tinggi segitiga: ");
+        System.out.print("Tolong masukkan nilai tinggi segitiga: ");
         tinggi = input.nextDouble();
 
-        System.out.println("Tolong masukkan nilai sisi 2 segitiga: ");
+        System.out.print("Tolong masukkan nilai sisi 2 segitiga: ");
         sisi2 = input.nextDouble();
 
-        System.out.println("Tolong masukkan nilai sisi 3 segitiga: ");
+        System.out.print("Tolong masukkan nilai sisi 3 segitiga: ");
         sisi3 = input.nextDouble();
         input.close();
 
